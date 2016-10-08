@@ -1,0 +1,164 @@
+@import "settings";
+
+.headerImage {
+  height: 350px;
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/800/400?image=77);
+  background-size: cover;
+  background-position: center;
+  }
+.headerRow {
+  padding-top: 10px;
+  h5 {
+    color: $colorTheme;
+    font-size: 18px;
+  }
+}
+.surfPaddleLogo {
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+}
+.headerTitle {
+  padding: 5vw 0;
+  color: white;
+  h1 {
+    margin: 0;
+    font-size: 60px;
+  }
+}
+.title {
+  color: $colorTheme;
+}
+.headerRightColumn {
+  padding-top: 14px;
+}
+
+
+
+
+.leftColumnAnneMarie {
+  opacity: .7;
+}
+.mainTitle {
+  font-size: 45px;
+  color: $colorTheme;
+}
+.profileImage {
+  width: 100px;
+}
+.noMargin {
+  margin: 0;
+}
+
+.pText {
+  color: #5E686F;
+}
+.woahRadical {
+  border-left: 1px solid rgb(128, 128, 128);
+  padding-left: 10px;
+}
+.buttons {
+  display: inline-block;
+  background: #A3B3BF;
+  color: white;
+  div {
+    padding: 10px;
+    display: inline-block;
+  }
+  div:first-child {
+    padding: 10px;
+    background: #5E686F;
+  }
+  &.thirdButton {
+    background: #106DB3;
+    div:first-child {
+      background: $colorTheme;
+    }
+  }
+}
+
+.mostPopularPosts {
+  color: $colorTheme;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.footer {
+  height: 50px;
+  background-color: $colorTheme;
+}
+.footerText {
+  // padding-top: 40px;
+  color: #A3B3BF;
+}
+.footerRight {
+  padding-top: 56px;
+}
+.iyImage {
+  width: 50px;
+  height: 50px;
+  opacity: .3;
+}
+
+.pictureRow {
+  display: flex;
+  flex-direction: column;
+}
+.pictures {
+  // width: 25vw;
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  flex: 1;
+  h3 {
+    padding-left: 20px;
+    flex: 1;
+    color: $colorTheme;
+  }
+}
+.pic1 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+  &:hover {
+    background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+    h3 {
+      color: white;
+    }
+  }
+}
+.pic2 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+  &:hover {
+    background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+    h3 {
+      color: white;
+    }
+  }
+}
+.pic3 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+  &:hover {
+    background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+    h3 {
+      color: white;
+    }
+  }
+}
+.pic4 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+  &:hover {
+    background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+    h3 {
+      color: white;
+    }
+  }
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .pictureRow {
+    flex-direction: row;
+  }
+}

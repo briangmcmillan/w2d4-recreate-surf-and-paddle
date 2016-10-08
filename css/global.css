@@ -1,0 +1,189 @@
+.headerImage {
+  height: 350px;
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/800/400?image=77);
+  background-size: cover;
+  background-position: center;
+}
+
+.headerRow {
+  padding-top: 10px;
+}
+
+.headerRow h5 {
+  color: #083451;
+  font-size: 18px;
+}
+
+.surfPaddleLogo {
+  width: 50px;
+  height: 50px;
+  padding-right: 10px;
+}
+
+.headerTitle {
+  padding: 5vw 0;
+  color: white;
+}
+
+.headerTitle h1 {
+  margin: 0;
+  font-size: 60px;
+}
+
+.title {
+  color: #083451;
+}
+
+.headerRightColumn {
+  padding-top: 14px;
+}
+
+.leftColumnAnneMarie {
+  opacity: .7;
+}
+
+.mainTitle {
+  font-size: 45px;
+  color: #083451;
+}
+
+.profileImage {
+  width: 100px;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.pText {
+  color: #5E686F;
+}
+
+.woahRadical {
+  border-left: 1px solid gray;
+  padding-left: 10px;
+}
+
+.buttons {
+  display: inline-block;
+  background: #A3B3BF;
+  color: white;
+}
+
+.buttons div {
+  padding: 10px;
+  display: inline-block;
+}
+
+.buttons div:first-child {
+  padding: 10px;
+  background: #5E686F;
+}
+
+.buttons.thirdButton {
+  background: #106DB3;
+}
+
+.buttons.thirdButton div:first-child {
+  background: #083452;
+}
+
+.mostPopularPosts {
+  color: #083451;
+  padding-top: 20px;
+  font-size: 30px;
+}
+
+.footer {
+  height: 150px;
+  background-color: #083452;
+}
+
+.footerText {
+  padding-top: 40px;
+  color: #A3B3BF;
+}
+
+.footerRight {
+  padding-top: 56px;
+}
+
+.iyImage {
+  width: 50px;
+  height: 50px;
+  opacity: .3;
+}
+
+.pictureRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.pictures {
+  display: flex;
+  align-items: flex-end;
+  height: 200px;
+  background-size: cover;
+  background-position: center center;
+  flex: 1;
+}
+
+.pictures h3 {
+  padding-left: 20px;
+  flex: 1;
+  color: #083452;
+}
+
+.pic1 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic1:hover {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic1:hover h3 {
+  color: white;
+}
+
+.pic2 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic2:hover {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic2:hover h3 {
+  color: white;
+}
+
+.pic3 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic3:hover {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic3:hover h3 {
+  color: white;
+}
+
+.pic4 {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.81), rgba(13, 93, 179, 0.81)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic4:hover {
+  background-image: linear-gradient(rgba(13, 93, 179, 0.01), rgba(13, 93, 179, 0.01)), url(http://unsplash.it/200/200?image=77);
+}
+
+.pic4:hover h3 {
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .pictureRow {
+    flex-direction: row;
+  }
+}
